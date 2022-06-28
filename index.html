@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400px">
+  <title>Elodie</title>
+  <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="fullpage">
+        
+    <!--content1-->
+    <div class="section" id="section1">
+        <div class="content1">
+          <!--header-->
+          <div id="header">
+            <div class="headerinner">
+              <a href="#" class="logo"><img src="images/Logo.png" alt="Logo"></a>
+              <ul class="nav">
+                <li><a href="#">About</a></li>
+                <li><a href="howareyou.html">How are you?</a></li>
+                <li><a href="#">Store</a>
+                  <ul class="sub">
+                    <li><a href="#">Flowers</a></li>
+                    <li><a href="#">Plants</a></li>
+                    <li><a href="#">Other</a></li>
+                    <li><a href="#">Special Order</a></li>
+                  </ul>
+                </li>
+                <li><a href="Promotion.html">Promotion</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--header-->
+          <div class="intro">
+          <video src="images/background.mp4" data-autoplay muted loop id="Video"></video>
+      </div>
+    </div>
+  </div>
+  <!--content1-->
+  
+  <!--content2-->
+    <div class="section" id="section2">
+        <div class="slide" id="slide1">
+
+    <div id="content2">
+      <div class="leftimg">
+      <img src="images/frame01-01.png" alt="frame01" class="frame01">
+      <img src="images/mainflower.png" alt="flower" class="flower">
+      </div>
+      <div class="rightcon">
+          <h4>Today's Flower</h4>
+          <h2>스파티필룸</h2>
+          <img src="images/icon.png" alt="icon" class="icon">
+          <div class="square"></div>
+          <p>
+              스파티필룸은 상록 초본 여러해살이 식물로서 <br>
+              12~65cm 길이의 3~25cm 넓이의 큰 잎을 가지고 있습니다.<br>
+              꽃은 꽃차례에서 나며 10cm 길이의 희고 노랗고 녹색을 내는 <br>
+              불염포에 둘러싸여 있습니다. 많은 양의 빛이나 물을 필요로 하지 않습니다.<br>
+              <br>
+              공기정화로 인기있는 식물이며, 눈, 목 그리고 피부에 자극을 주는<br>
+              공기중에 있는 해로운 독성물질이나 곰팡이등을 제거하며 집안을 상쾌하게<br>
+              만들어줍니다. 또한 침실에 놔두면 공기를 정화하며 수면개선에 도움을 줍니다.
+          </p>
+          <img src="images/Todays Flower.png" alt="deco" class="deco">
+          <div class="button1"><a href="#">
+              <h5 class="btn1txt">더 많은 꽃 보러가기</h5>
+          </a></div>
+      </div>
+  </div>
+    </div>
+  </div>
+  <!--content2-->
+  
+  <!--content3-->
+    <div class="section" id="section3">
+    <div id="content3">            
+      <div class="backbox1"></div>
+      <div class="backbox2"></div>
+      <div class="overlay">                
+          <div class="contentinner">
+              <img src="images/shape.png" alt="shape" class="shape">
+              <h2 class="specialorder">Special Order</h2>
+              <div class="box2"></div>
+              <h1>
+                  당신의 이야기를 들려주세요. <br>
+                  <span class="boldpink">당신만의 꽃</span>을 디자인해드립니다.
+              </h1>
+              <div class="button2"><a href="#">
+                  <h5 class="btn2txt">예약하러 가기</h5>
+              </a></div>
+              <img src="images/favicon.png" alt="blooming" class="blooming">
+              
+          </div>
+      </div>
+  </div>
+    </div>
+  <!--content3-->
+
+  <!--content4-->
+    <div class="section" id="section4">
+    <div id="content4">
+        <div class="content4inner">
+        <img src="images/icon.png" alt="icon" class="promicon">
+        <h2 class="promotion">프로모션</h2>
+        <div class="box3"></div>
+            <div class="bannercontainer">
+                <div class="slides fade">
+                    <a href="promotion1.html"><img src="images/banner_index1.jpg" alt="banner1" style="width:100%"></a>
+                </div>
+                <div class="slides fade">
+                    <a href="promotion2.html"><img src="images/banner_index2.jpg" alt="banner2" style="width:100%"></a>
+                </div>
+                <div class="slides fade">
+                    <a href="promotion3.html"><img src="images/banner_index3.jpg" alt="banner3" style="width:100%"></a>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center" class="dots">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+              <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("slides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" dotactive", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " dotactive";
+                  setTimeout(showSlides, 4100); // Change image every 2 seconds
+                }
+                </script>
+        </div>
+    </div>
+    </div>
+    <!--content4-->
+
+   <!--content5-->
+    <div class="section" id="section5">
+    <div id="content5">
+      <div class="content5wrap">
+          <img src="images/icon.png" alt="icon" class="instaicon">
+          <h2 class="instatxt">elodie_flowers Instagram</h2>
+          <div class="box4"></div>
+          <div class="instawrap1">
+              <div class="instawrap"><a href="https://www.instagram.com/p/CeCvhj8PIha/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta1.jpg" alt="insta1" class="insta"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CfDwHdJvOQ_/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta2.jpg" alt="insta2" class="insta"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CeCvzABP7sJ/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta3.jpg" alt="insta3" class="insta"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CfDwWqfvGZw/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta4.jpg" alt="insta4" class="insta"></a></div>
+          </div>
+          <div class="instawrap2">
+              <div class="instawrap"><a href="https://www.instagram.com/p/CfDw9nBvS94/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta5.jpg" alt="insta5" class="insta2"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CeftGvVvnP8/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta6.jpg" alt="insta6" class="insta2"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CfF53oGPuXy/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta7.jpg" alt="insta7" class="insta2"></a></div>
+              <div class="instawrap"><a href="https://www.instagram.com/p/CfDws0GPZAU/?utm_source=ig_web_copy_link" target="_blank"><img src="images/insta8.jpg" alt="insta8" class="insta2"></a></div>
+          </div>
+
+      </div>
+  </div>
+    </div>
+  <!--content5-->
+
+    <div class="section fp-auto-height" id="section6">
+        <div class="myContent">
+              <!--footer-->
+<div id="footer">
+  <div class="footerinner">
+      <ul class="footernav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="error.html">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="index.html" class="footerlogo"><img src="images/Footerlogo-01.png" alt="footer"></a>
+      <p class="copyright">
+          GUIDE AGREEMENT PRIVACY POLICY <br>
+          COPYRIGHT © ELODIE ALL RIGHTS RESERVED.
+      </p>
+      <ul class="instadm">
+          <li><a href="https://www.instagram.com/elodie_flowers/" target="_blank" class="footerinsta"><img src="images/instalogo.png" alt="instalogo"> DM to elodie_flowers</a></li>
+      </ul>
+  </div>
+</div>
+
+  <!--footer-->
+        </div>
+    </div>
+</div>
+
+<!-- js -->
+<script src="script/fullpage.js"></script>
+<script>
+  var myFullpage = new fullpage('#fullpage', {
+      verticalCentered: true,
+      scrollOverflow: true,
+      scrollingSpeed: 1000, //스크롤 속도
+      navigation: false, // 네비게이션 사용
+      navigationPosition: 'right', //네비게이션 위치
+      navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth pages', 'Footer'], //네비게이션 호버 시 설명
+      responsiveWidth: 1080, //반응형 너비지정 900px일 때 스크롤 생김.
+        afterResponsive: function(isResponsive){
+          
+        }
+  });
+</script>
+</body>
+</html>

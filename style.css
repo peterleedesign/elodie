@@ -1,0 +1,125 @@
+@font-face {font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+*{margin: 0; padding: 0;}
+body{color: #252525; font-size: 18px; line-height: 34px; font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;}
+a{text-decoration: none; color: #252525;}
+ul{list-style: none;}
+
+
+#section1.fp-section.fp-table{
+    display: block;
+    overflow: hidden;
+}
+
+/*font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;*/
+
+#header{background-color: rgba(255, 255, 255, 0.4); height: 180px; position: absolute; top: 0px; left: -1%; width: 101%; z-index: 3; }
+.headerinner{width: 80%; margin: auto; position: relative; z-index: 2; }
+.logo{position: absolute; top: 30px; left: 50%; transform: translateX(-50%);}
+.headerinner .nav{width: 1320px;  height: 26px; position: absolute; top: 130px; right: 50%; transform: translateX(50%);}
+.nav> li{float: left; width: 224px; margin: 0 20px; text-align: center;}
+.nav> li> a{color: rgba(37, 37, 37, 0.4); padding: 8px 0; box-sizing: border-box; display: block;}
+.nav> li> a:hover{color: #252525; font-style: italic; font-weight: 800;}
+
+.sub li a{display: block; padding: 16px 0; text-align: center; color: rgba(37, 37, 37, 0.4); background-color: rgba(255, 255, 255, 0.4);}
+.sub li a:hover{color: #252525; background-color: rgba(255, 255, 255, 0.6);font-style: italic; font-weight: 800;}
+.sub{display: none;}
+.nav li:hover .sub{display: block;}
+
+
+/*content1*/
+.content1{width: 100%; height: 100%; overflow:hidden; position: relative;}
+#Video {width: 100%; display: block;}
+/*content1*/
+
+/*content2*/
+#content2{width: 1320px; margin: auto; height: 100%; padding: 6% 0; box-sizing: border-box; background-color: white;}
+.leftimg{width: 600px; float: left; position: relative; height: 100%;}
+.frame01{position: absolute; top: 0%; left: 18%; }
+.flower{position: absolute; z-index: 2; left: 30%; top: 8%; filter: drop-shadow(5px 5px 5px rgb(156, 153, 143)); transition: 1s;}
+.flower:hover{transform: scale(1.02); overflow: hidden;}
+
+
+.rightcon{float: right; position: relative; padding: 100px 0 120px 40px; box-sizing: border-box; width: 660px;}
+.icon{position: absolute; top: 9%; left: 0px;}
+h4{font-size: 22px; color: #757575; margin-bottom: 20px;}
+h2{font-family: 'RIDIBatang'; font-weight: 300; font-size: 40px; margin-bottom: 100px; position: absolute; z-index: 20;}
+.square{width: 370px; height: 30px; background-color: #fecfa7; position: absolute; top: 170px; z-index: 0;}
+p{font-size: 18px; margin-top: 140px;}
+
+.deco{position: absolute; top: 8%; right: 18%; transform: rotate(360deg);}
+@keyframes deco{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}}
+.deco{animation: deco 20.0s linear infinite;}
+
+.button1{width: 200px; height: 60px; position: absolute; bottom: 0%; right: 0%;}
+.btn1txt{font-size: 18px; font-family: 'NotoSansKR'; font-weight: 400; padding: 50px 30px 0 0; background: url(images/buttonshape.png) no-repeat right; height: 60px;}
+h5:hover{font-style: italic; font-weight: 600;}
+/*content2*/
+
+/*content3*/
+#content3{height: 100%; background: url(images/bouquet.jpg) center no-repeat fixed; text-align: center; position: relative;}
+.backbox1{width: 100%; height: 18%; background-color: white; position: absolute; z-index: 5;}
+.backbox2{width: 100%; height: 18%; background-color: white;position: absolute; bottom: 0%; z-index: 6;}
+.overlay{background:rgba(231, 227, 217, 0.6); overflow: hidden; height: 100%; position: absolute; z-index: 10; width: 100%;}
+.contentinner{width: 1320px; height: 100%; margin: auto; position: relative; }
+.shape{top: 35%; position: absolute; left: 50%; transform: translateX(-50%);}
+.box2{width: 260px; height: 30px; background-color: #fecfa7; position: absolute; left: 50%; transform: translateX(-50%); top: 25%;}
+.specialorder{position: absolute; left: 50%; transform: translateX(-50%); top: 23%;}
+h1{font-size: 50px; top: 43%; position: absolute; line-height: 90px; left: 50%; transform: translateX(-50%); width: 1000px;}
+.boldpink{color: #dc6176; font-size: 55px; font-weight: bold;}
+.boldpink:hover{font-style: italic; transition: 1s;}
+.button2{width: 200px; height: 60px; position: absolute; bottom: 25%; right: 0%;}
+.btn2txt{font-size: 18px; font-family: 'NotoSansKR'; font-weight: 400; padding: 50px 0 0 0; background: url(images/buttonshape2.png) no-repeat right; height: 60px;}
+.blooming{position: absolute; top: 21%; right: 30%; transition: 2s;}
+#content3:hover .blooming{transform: scale(1.2) rotate(15deg); overflow: hidden;}
+/*content3*/
+
+/*content4*/
+#content4{width: 100%; height: 100%; background-color: #fcecd8;}
+.content4inner{width: 1320px; height: 100%; margin: auto; position: relative;}
+.promicon{position: absolute; top: 5.5%; left: 5.4%;}
+.promotion{position: absolute; top: 11%; left: 8.4%;}
+.box3{width: 260px; height: 30px; background-color: #fecfa7; position: absolute; top: 13%; left: 8.4%;}
+
+.bannercontainer{width: 1100px; height: 500px; position: absolute; margin: auto; top: 21%; left: 50%; transform: translateX(-50%); box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.4);}
+.dots{position: absolute; top: 700px; left: 50%; transform: translateX(-50%);}
+.dot { height: 15px; width: 15px; margin: 0 2px; background-color: #f1b0a7; border-radius: 50%; display: inline-block; transition: background-color 0.6s ease;}
+  
+.dotactive {background-color: #dc6076;}
+.fade {animation-name: fade; animation-duration: 1s;}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+@media only screen and (max-width: 300px) {.text {font-size: 11px}}
+/*content4*/
+
+/*content5*/
+#content5{width: 100%; height: 100%; background-color: white;}
+.content5wrap{width: 1320px; height: 100%; margin: auto; position: relative;}
+.instaicon{position: absolute; top: 5%; left: -1%;}
+.instatxt{position: absolute; top: 10%; left: 1%;}
+.box4{width: 540px; height: 30px; background-color: #fecfa7; position: absolute; top: 12%; left: 1%;}
+.instawrap1{width: auto; height: 100%; position: absolute; top: 20%; display: block;}
+.instawrap2{width: auto; height: 100%; position: absolute; top: 58%;}
+.insta{float: left; transition: all 1s;}
+.insta:hover{ transform: scale(1.05); }
+.insta2:hover{ transform: scale(1.05); }
+.insta2{float: left; transition: all 1s;}
+.instawrap{width: 290px; height: 290px; display: inline-block; overflow: hidden; box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.4); margin: 0 18px;}
+/*content5*/
+
+/*footer*/
+#footer{width: 100%; height: 300px; background-color: #555555;}
+.footerinner{width: 1320px; height: 100%; margin: auto; position: relative;}
+.footernav{position: absolute; top: 140px;}
+.footernav li{float: left; padding-right: 40px; }
+.footernav li a{color: #fcecd8; font-size: 16px;}
+.footernav li a:hover{color: #fecfa7; font-style: italic;}
+.instadm{float: right; top: 140px; position: absolute; right: 0%;}
+.instadm li a img{vertical-align: middle;}
+.instadm li a{color: #fcecd8; font-size: 16px;}
+.footerlogo{position: absolute; top: 90px;left: 50%; transform: translateX(-58%) }
+.copyright{text-align: center; color: #fcecd8; font-size: 12px; line-height: 24px; position: absolute; bottom: 12%; left: 50%; transform: translateX(-50%)}
+/*footer*/

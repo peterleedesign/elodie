@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400px">
+  <title>How are you?</title>
+  <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style_hru.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <ul id="menu">
+    <li data-menuanchor="anchor1"><a href="#anchor1"></a></li>
+    <li data-menuanchor="anchor2"><a href="#anchor2"></a></li>
+    <li data-menuanchor="anchor3"><a href="#anchor3"></a></li>
+  </ul>
+
+  <div id="fullpage">
+
+<!--header-->
+<div id="header">
+  <div class="headerinner">
+      <a href="index.html" class="logo"><img src="images/Logo.png" alt="Logo"></a>
+      <ul class="nav">
+      <li><a href="#">About</a></li>
+      <li><a href="howareyou.html" class="hrulink">How are you?</a></li>
+      <li><a href="#">Store</a>
+          <ul class="sub">
+              <li><a href="#">Flowers</a></li>
+              <li><a href="#">Plants</a></li>
+              <li><a href="#">Other</a></li>
+              <li><a href="#">Special Order</a></li>
+          </ul>
+          </li>
+      <li><a href="Promotion.html">Promotion</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+  </div>
+  </div>
+<!--header-->
+
+<!--content1-->
+<div class="section" id="section1">
+<div class="intro">
+<div id="content1">
+  <div class="hru1">
+    <p class="hru1txt">
+        어느덧 모든 일이 끝나고, <br>
+        당신은 여유 시간을 가지게 되었습니다. <br>
+        <span class="english">
+            All your work is done <br>
+        and you are having a free time.
+        </span>
+    </p></div>
+</div>
+</div>
+</div>
+<!--content1-->
+
+
+<!--content2-->
+    <div class="section" id="section2">
+        <div class="slide" id="slide1">
+<div id="content2">
+  <div class="img">
+  <p class="hru2txt">
+      가장 좋아하는 음료를 가지고 <br>
+      의자에 앉아 음료를 즐기며 생각에 잠깁니다 <br>
+      <span class="english">
+      You brought your favorite drink and set on a chair <br>
+      and you are diving into thinking while enjoying drink.
+      </span>
+  </p>
+</div>
+</div>
+        </div>
+    </div>
+<!--content2-->
+
+    <div class="section" id="section3">
+<!--content3-->
+<div id="content3">
+  <p class="hru3txt" data-aos="fade-right" >
+      음료를 마시던 당신은.. <br>
+      어떤 생각 또는 느낌에 잠기셨나요?<br>
+      <span class="english">
+          When you were having your drink.. <br>
+          What were you thinking or feeling about?
+      </span>
+  </p>
+</div>
+<!--content3-->
+    </div>
+
+    <div class="section" id="section4">
+<!--content4-->
+<div id="content4">
+  <p class="hru4txt">
+      당신의 오늘은 어떠신가요?<br>
+      <span class="english">
+      How was your day?
+      </span>
+  </p>
+</div>
+<!--content4-->
+    </div>
+
+    <div class="section" id="section5">
+<!--content5-->
+<div id="content5">
+  <p class="hru5txt">
+      당신의 이야기를 들려주세요.<br>
+      <span class="english">
+      Please, tell us your story.
+      </span>
+  </p>
+  <div class="button"><a href="#">제 이야기는요..</a></div>
+</div>
+<!--content5-->
+    </div>
+
+    
+    <div class="section fp-auto-height" id="section4">
+        <div class="myContent">
+              <!--footer-->
+              <div id="footer">
+                <div class="footerinner">
+                    <ul class="footernav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="error.html">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <a href="index.html" class="footerlogo"><img src="images/Footerlogo-01.png" alt="footer"></a>
+                    <p class="copyright">
+                        GUIDE AGREEMENT PRIVACY POLICY <br>
+                        COPYRIGHT © ELODIE ALL RIGHTS RESERVED.
+                    </p>
+                    <ul class="instadm">
+                        <li><a href="https://www.instagram.com/elodie_flowers/" target="_blank" class="footerinsta"><img src="images/instalogo.png" alt="instalogo"> DM to elodie_flowers</a></li>
+                    </ul>
+                </div>
+              </div>
+              
+                <!--footer-->
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- js -->
+<script src="script/fullpage.js"></script>
+<script>
+  var myFullpage = new fullpage('#fullpage', {
+      verticalCentered: true,
+      scrollOverflow: true,
+      scrollingSpeed: 1000, //스크롤 속도
+      navigation: false, // 네비게이션 사용
+      navigationPosition: 'right', //네비게이션 위치
+      responsiveWidth: 900, //반응형 너비지정 900px일 때 스크롤 생김.
+        afterResponsive: function(isResponsive){
+          
+        }
+  });
+</script>
+</body>
+</html>

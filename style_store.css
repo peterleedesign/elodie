@@ -1,0 +1,26 @@
+@font-face {font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+*{margin: 0; padding: 0;}
+body{color: #252525; font-size: 18px; line-height: 34px; font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;}
+a{text-decoration: none; color: #252525;}
+ul{list-style: none;}
+
+
+/*font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;*/
+
+#header{background-color: rgba(252, 236, 216, 0.4); height: 180px; position: absolute; top: 0px; left: 0%; width: 100%; z-index: 3; }
+.headerinner{width: 80%; margin: auto; position: relative; z-index: 2; }
+.logo{position: absolute; top: 30px; left: 50%; transform: translateX(-50%);}
+.headerinner .nav{width: 1320px;  height: 26px; position: absolute; top: 130px; right: 50%; transform: translateX(50%);}
+.nav> li{float: left; width: 224px; margin: 0 20px; text-align: center;}
+.nav> li> a{color: rgba(37, 37, 37, 0.4); padding: 8px 0; box-sizing: border-box; display: block;}
+.nav> li> a:hover{color: #252525; font-style: italic; font-weight: 800;}
+
+.sub li a{display: block; padding: 16px 0; text-align: center; color: rgba(37, 37, 37, 0.4); background-color: rgba(252, 236, 216, 0.4);}
+.sub li a:hover{color: #252525; background-color: rgba(252, 236, 216, 0.7);font-style: italic; font-weight: 800;}
+.sub{display: none;}
+.nav li:hover .sub{display: block;}
+
+.nav li .storelink{color: #252525; font-style: italic; font-weight: 800;}

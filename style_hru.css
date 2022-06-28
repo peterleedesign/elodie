@@ -1,0 +1,118 @@
+@font-face {font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+*{margin: 0; padding: 0;}
+body{color: #252525; font-size: 18px; line-height: 34px; font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Serif KR', serif;}
+a{text-decoration: none; color: #252525;}
+ul{list-style: none;}
+
+#section1.fp-section.fp-table{overflow: hidden;}
+
+/*font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;*/
+
+#header{background-color: rgba(255, 255, 255, 0.4); height: 180px; position: absolute; top: 0px; left: -1%; width: 101%; z-index: 3; }
+.headerinner{width: 80%; margin: auto; position: relative; z-index: 2; }
+.logo{position: absolute; top: 30px; left: 50%; transform: translateX(-50%);}
+.headerinner .nav{width: 1320px;  height: 26px; position: absolute; top: 130px; right: 50%; transform: translateX(50%);}
+.nav> li{float: left; width: 224px; margin: 0 20px; text-align: center;}
+.nav> li> a{color: rgba(37, 37, 37, 0.4); padding: 8px 0; box-sizing: border-box; display: block;}
+.nav> li> a:hover{color: #252525; font-style: italic; font-weight: 800;}
+
+.sub li a{display: block; padding: 16px 0; text-align: center; color: rgba(37, 37, 37, 0.4); background-color: rgba(255, 255, 255, 0.4);}
+.sub li a:hover{color: #252525; background-color: rgba(255, 255, 255, 0.6);font-style: italic; font-weight: 800;}
+.sub{display: none;}
+.nav li:hover .sub{display: block;}
+
+.nav li .hrulink{color: #252525; font-style: italic; font-weight: 800; }
+
+
+/*content1*/
+#content1{width: 100%; height: 100vh; background: url(images/hru/howareyou01.jpg) no-repeat center; background-size: cover; position: relative;}
+/*.img{background: url(images/hru/howareyou01.jpg) no-repeat center; width: 100%; height: 1080px;}*/
+/*.hru1{width: 100%; height: 100%; object-fit: contain; position: relative; z-index: 1; background: url(images/hru/howareyou01.jpg) no-repeat center;  overflow: hidden;}*/
+p{color: rgba(73, 41, 0, 1);}
+.hru1txt{position: absolute; left: 62%; top: 41%; color: rgba(73, 41, 0, 1); opacity: 0;}
+.english{color: rgba(73, 41, 0, 0.6);}
+
+.fp-viewing-1 .hru1txt{
+    animation: right 2s 0.5s forwards;
+}
+
+@keyframes right{
+    0%{opacity: 0; left: 65%;}
+    100%{opacity: 1; left: 62%;}
+}
+/*content1*/
+
+
+/*content2*/
+#content2{width: 100%; height: 100%; background: url(images/hru/howareyou02.jpg) no-repeat center; position: relative; }
+/*.hru2{width: 100%; height: 100%; object-fit: contain;}*/
+.hru2txt{color: rgba(73, 41, 0, 1); position: absolute; left: 52%; top: 25%; opacity: 0;}
+
+.fp-viewing-2-0 .hru2txt{animation: top 2s 0.5s forwards;}
+
+@keyframes top{
+    0%{opacity: 0; top: 22%;}
+    100%{opacity: 1; top: 25%;}}
+/*content2*/
+
+
+/*content3*/
+#content3{width: 100%; height: 100%; background: url(images/hru/howareyou03.jpg) no-repeat center; position: relative;  }
+.hru3{width: 100%; height: 100%; object-fit: contain;}
+.hru3txt{color: rgba(73, 41, 0, 1); position: absolute; left: 22%; top: 20%; text-align: right; opacity: 0;}
+.fp-viewing-3 .hru3txt{animation: left 2s 0.5s forwards;}
+
+@keyframes left{
+    0%{opacity: 0; left: 19%;}
+    100%{opacity: 1; left: 22%;}}
+/*content3*/
+
+/*content4*/
+#content4{width: 100%; height: 100%; background: url(images/hru/howareyou04.jpg) no-repeat center; position: relative; }
+.hru4{width: 100%; height: 100%; object-fit: contain;}
+.hru4txt{ color: rgba(73, 41, 0, 1); position: absolute; left: 22%; top: 20%; text-align: right; opacity: 0;}
+
+.fp-viewing-4 .hru4txt{animation: bottom 2s 0.5s forwards;}
+
+@keyframes bottom{
+    0%{opacity: 0; top: 23%;}
+    100%{opacity: 1; top: 20%;}}
+/*content4*/
+
+/*content5*/
+#content5{width: 100%; height: 100%; background: url(images/hru/howareyou05.jpg) no-repeat center; position: relative; }
+.hru5{width: 100%; height: 100%; object-fit: contain;}
+.hru5txt{color: rgba(73, 41, 0, 1); position: absolute; right: 35%; top: 15%; opacity: 0;}
+.button{background-color: rgba(255, 255, 255, 0.6); height: 60px; width: 200px; padding: 10px 10px; box-sizing: border-box; position: absolute; right: 20%; bottom: 35%; display: block; text-align: center; border-radius: 0 40px 0 0; opacity: 0;}
+.button a{font-size: 16px; color: #492900;}
+.button a:hover{font-weight: bold; font-size: 18px;}
+
+.fp-viewing-5 .hru5txt{animation: top 2s 0.5s forwards;}
+
+@keyframes top{
+    0%{opacity: 0; top: 12%;}
+    100%{opacity: 1; top: 15%;}}
+
+.fp-viewing-5 .button{animation: slidein 3s 1.5s forwards;}
+
+@keyframes slidein{
+    0%{opacity: 0; right: 16%;}
+    100%{opacity: 1; right: 20%;}}
+/*content5*/
+
+/*footer*/
+#footer{width: 100%; height: 300px; background-color: #555555;}
+.footerinner{width: 1320px; height: 100%; margin: auto; position: relative;}
+.footernav{position: absolute; top: 140px;}
+.footernav li{float: left; padding-right: 40px; }
+.footernav li a{color: #fcecd8; font-size: 16px;}
+.footernav li a:hover{color: #fecfa7; font-style: italic;}
+.instadm{float: right; top: 140px; position: absolute; right: 0%;}
+.instadm li a img{vertical-align: middle;}
+.instadm li a{color: #fcecd8; font-size: 16px;}
+.footerlogo{position: absolute; top: 90px;left: 50%; transform: translateX(-58%) }
+.copyright{text-align: center; color: #fcecd8; font-size: 12px; line-height: 24px; position: absolute; bottom: 12%; left: 50%; transform: translateX(-50%)}
+/*footer*/
