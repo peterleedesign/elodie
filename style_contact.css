@@ -22,17 +22,33 @@ font-family: 'Noto Serif KR', serif;*/
 .sub li a:hover{color: #252525; background-color: rgba(255, 255, 255, 0.8);font-style: italic; font-weight: 800;}
 .sub{display: none;}
 .nav li:hover .sub{display: block;}
+.nav li .conlink{color: #252525; font-style: italic; font-weight: 800; }
 
+#contact01{width: 100%; height: 100%; background: url(images/hru/howareyou05.jpg) no-repeat center;}
+.wrap{width: 1320px; height: 1080px; margin: auto; position: relative;}
+.contactdetail{width: 800px; height: 520px; position: absolute; bottom: 25%; right: 0%;}
+.tablewrap{width: 800px; height: 540px; background-color: rgba(252, 236, 216, 0.8); border: white 10px solid; padding: 20px; box-sizing: border-box;}
+.tablewrap table th{text-align: right; width: 90px; padding: 5px 14px 5px 0; font-size: 16px; font-family: 'RIDIBatang'; font-weight: normal;}
+.tablewrap table td{margin-left: 30px;}
+.tablewrap table{width: 100%;}
+h3{font-size: 22px; margin-bottom: 14px; margin-left: 10px; color: #252525;}
+table textarea{padding: 10px; width: 560px; height: 200px; border: 1px solid #ccc;}
+table select{border: 1px solid #ccc; padding: 10px; width: 100px; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: url(images/select.png) no-repeat 90% center white; }
+table input{padding: 8px; border: 1px solid #ccc; margin: 6px 0;}
+table input[type="name"]{width: 100px;}
+table input[type="email"]{width: 300px;}
+table input[type="title"]{width: 560px;}
+table td a{padding: 8px 20px; background-color: rgba(255, 255, 255, 0.8); border: 1px solid #ccc;}
+.button{text-align: left;}
+.button:hover{font-weight: bold;}
 
-
-/*content*/
-.error{width: 100%; height: 800px; background: url(images/pattern.png); position: relative;}
-.wrap{width: 1000px; height: 460px; margin: auto; text-align: center; padding-top:600px; background-color: rgba(255, 255, 255, 0.8); padding: 50px; box-sizing: border-box; position: absolute; top: 260px; right: 50%; transform: translateX(50%); border: #e97c84 solid 10px;}
-.notfound{margin-bottom: 70px; font-family: 'RIDIBatang'; line-height: 60px;}
-.notfound2{margin-bottom: 60px;}
-.tohome{font-size: 30px; color: #e97c84; font-weight: bold;}
-.tohome:hover{font-weight: bold; color: #dc6176; font-style: italic;}
-
+#content02{width: 100%; height: 100%;}
+.content02wrap{width: 1320px; height: 960px; margin: auto; padding: 80px 0; position: relative;}
+.map{width: 1280px; margin: auto; border: #fcecd8 20px solid; background-color: #fcecd8; height: 770px;}
+.address{text-align: right;position: absolute; left: 2%;}
+iframe{align-items: center;}
+.telbox{width: 20px; height: 80px; background-color: #fcecd8; position: absolute; right: 17%; bottom: 7%;}
+.tel{position: absolute; right: 1%; bottom: 7%; font-family: 'RIDIBatang'; font-size: 24px; }
 
 /*footer*/
 #footer{width: 100%; height: 300px; background-color: #555555;}

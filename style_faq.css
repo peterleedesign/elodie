@@ -10,7 +10,7 @@ ul{list-style: none;}
 /*font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Noto Serif KR', serif;*/
 
-#header{background-color: rgba(255, 255, 255, 0.6); height: 180px; position: absolute; top: 0px; left: 0%; width: 100%; z-index: 3; }
+#header{background-color: rgba(252, 236, 216, 0.4); height: 180px; position: absolute; top: 0px; left: 0%; width: 100%; z-index: 3; }
 .headerinner{width: 80%; margin: auto; position: relative; z-index: 2; }
 .logo{position: absolute; top: 30px; left: 50%; transform: translateX(-50%);}
 .headerinner .nav{width: 1320px;  height: 26px; position: absolute; top: 130px; right: 50%; transform: translateX(50%);}
@@ -18,20 +18,11 @@ font-family: 'Noto Serif KR', serif;*/
 .nav> li> a{color: rgba(37, 37, 37, 0.4); padding: 8px 0; box-sizing: border-box; display: block;}
 .nav> li> a:hover{color: #252525; font-style: italic; font-weight: 800;}
 
-.sub li a{display: block; padding: 16px 0; text-align: center; color: rgba(37, 37, 37, 0.4); background-color: rgba(255, 255, 255, 0.6)}
-.sub li a:hover{color: #252525; background-color: rgba(255, 255, 255, 0.8);font-style: italic; font-weight: 800;}
+.sub li a{display: block; padding: 16px 0; text-align: center; color: rgba(37, 37, 37, 0.4); background-color: rgba(252, 236, 216, 0.4);}
+.sub li a:hover{color: #252525; background-color: rgba(252, 236, 216, 0.7); font-style: italic; font-weight: 800;}
 .sub{display: none;}
 .nav li:hover .sub{display: block;}
 
-
-
-/*content*/
-.error{width: 100%; height: 800px; background: url(images/pattern.png); position: relative;}
-.wrap{width: 1000px; height: 460px; margin: auto; text-align: center; padding-top:600px; background-color: rgba(255, 255, 255, 0.8); padding: 50px; box-sizing: border-box; position: absolute; top: 260px; right: 50%; transform: translateX(50%); border: #e97c84 solid 10px;}
-.notfound{margin-bottom: 70px; font-family: 'RIDIBatang'; line-height: 60px;}
-.notfound2{margin-bottom: 60px;}
-.tohome{font-size: 30px; color: #e97c84; font-weight: bold;}
-.tohome:hover{font-weight: bold; color: #dc6176; font-style: italic;}
 
 
 /*footer*/
@@ -47,3 +38,7 @@ font-family: 'Noto Serif KR', serif;*/
 .footerlogo{position: absolute; top: 90px;left: 50%; transform: translateX(-58%) }
 .copyright{text-align: center; color: #fcecd8; font-size: 12px; line-height: 24px; position: absolute; bottom: 12%; left: 50%; transform: translateX(-50%)}
 /*footer*/
+
+
+/*faq*/
+.faqdiv{margin-top: 300px; width: 1320px; margin: 300px auto;}

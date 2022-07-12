@@ -1,0 +1,50 @@
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ul{ list-style:none; }
+
+/* 하이퍼링크 설정 */
+a{ text-decoration:none; color:#000; }
+
+
+body { 
+	font-family:"나눔고딕"; 
+	font-size:16px; 
+	line-height:26px; 
+	color:#000; 
+}
+#board { 
+	width:1200px; 
+	margin:50px; 
+}
+#board li{ 
+	width:100%; 
+}
+#board li a{ 
+	display:block;
+	border:1px solid #CCC; 
+	padding:10px 20px;  
+	background: url(../images/icon1.png) no-repeat 95% 50%;
+}
+#board li:hover a{  
+	font-weight:bold; 
+	background-color: #eee;
+}
+#board li.on a{
+	font-weight:bold; 
+	background-color: #eee;
+	background: #eee url(../images/icon2.png) no-repeat 95% 50%;
+}
+#board li:last-child a{
+	border-top:0;
+}
+#board li div{ 
+	width:100%; 
+	border:1px solid #ccc; 
+	border-top:0;
+	padding:10px 20px; 
+	box-sizing:border-box; 
+	height:48px;
+	display:none;
+}
+

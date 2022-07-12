@@ -24,3 +24,60 @@ font-family: 'Noto Serif KR', serif;*/
 .nav li:hover .sub{display: block;}
 
 .nav li .storelink{color: #252525; font-style: italic; font-weight: 800;}
+
+
+/*content1*/
+#content1{width: 100%; height: 1000px;}
+.flowerlistdiv{width: 1320px; height: 100%; margin: auto; padding-top: 230px;}
+.title{position: relative; height: 220px;}
+.icon{position: absolute; left: -2.5%; top: 5px;}
+h2{position: absolute; top: 60px; z-index: 3; font-family: 'RIDIBatang'; font-weight: 300; font-size: 40px;}
+.box{height: 30px; width: 200px; position: absolute; background-color: #fecfa7; top: 76px;}
+.flowernav{position: absolute; top: 140px;}
+.flowernav li{float: left; padding-right: 36px; font-family: 'Noto Sans KR'; box-sizing: border-box; width: 110px;}
+.flowernav li:nth-child(3){width: 160px;}
+.flowernav li:hover{font-style: italic; font-weight: bold; text-decoration: underline; }
+
+.flower1 li{float: left; filter: drop-shadow(5px 5px 5px rgb(156, 153, 143)); position: relative; overflow: hidden;}
+.flower1 li:nth-child(2) {margin: 0 105px;}
+.descriptionleft{position: absolute; background-color: rgba(252, 236, 216, 0.6); width: 370px; height: 90px; bottom: -20px; box-sizing: border-box; padding: 15px 30px 10px; opacity: 0; transition: all 1.5s ease-in-out;}
+.descriptionbtm{position: absolute; background-color: rgba(252, 236, 216, 0.6); width: 370px; height: 90px; bottom: -20px; box-sizing: border-box; padding: 15px 30px 10px; opacity: 0; transition: all 1s ease-in-out;}
+.descriptionright{position: absolute; background-color: rgba(252, 236, 216, 0.6); width: 370px; height: 90px; bottom: -20px; box-sizing: border-box; padding: 15px 30px 10px; opacity: 0; transition: all 1.5s ease-in-out;}
+.pl{float: left;}
+.pl2{float: right;}
+.flower1 li:hover .descriptionleft{bottom: 25px; left: 0px; opacity: 1;}
+.flower1 li:hover .descriptionbtm{bottom: 25px; left: 0px; opacity: 1;}
+.flower1 li:hover .descriptionright{bottom: 25px; right: 0px; opacity: 1;}
+.title2{font-family: 'RIDIBatang'; margin-bottom: 30px; font-weight: 200; font-size: 24px;}
+
+.toflower{float: right; margin-top: 30px; font-size: 20px; width: 100%; height: 100px;}
+.findmore{display: block; float: right;}
+.findmore:hover{font-weight: bold; font-style: italic;}
+
+#prom{width: 100%; height: 100%;}
+.promotionwrap{width: 1320px; height: 100%; margin: 100px auto; text-align: center;}
+.promotionwrap img{box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.4);}
+
+
+#flowerlist2{width: 100%; height: 100%;}
+.flowerlistdiv2{width: 1320px; height: 650px; margin: 0 auto 100px;}
+.flower2{margin-bottom: 50px;}
+.flower2 li{float: left; filter: drop-shadow(5px 5px 5px rgb(156, 153, 143)); position: relative; overflow: hidden;}
+.flower2 li:nth-child(2) {margin: 0 105px;}
+.flower2 li:hover .descriptionleft{bottom: 25px; left: 0px; opacity: 1;}
+.flower2 li:hover .descriptionbtm{bottom: 25px; left: 0px; opacity: 1;}
+.flower2 li:hover .descriptionright{bottom: 25px; right: 0px; opacity: 1;}
+
+/*footer*/
+#footer{width: 100%; height: 300px; background-color: #555555;}
+.footerinner{width: 1320px; height: 100%; margin: auto; position: relative;}
+.footernav{position: absolute; top: 140px;}
+.footernav li{float: left; padding-right: 40px; }
+.footernav li a{color: #fcecd8; font-size: 16px;}
+.footernav li a:hover{color: #fecfa7; font-style: italic;}
+.instadm{float: right; top: 140px; position: absolute; right: 0%;}
+.instadm li a img{vertical-align: middle;}
+.instadm li a{color: #fcecd8; font-size: 16px;}
+.footerlogo{position: absolute; top: 90px;left: 50%; transform: translateX(-58%) }
+.copyright{text-align: center; color: #fcecd8; font-size: 12px; line-height: 24px; position: absolute; bottom: 12%; left: 50%; transform: translateX(-50%)}
+/*footer*/
