@@ -10,7 +10,7 @@ ul{list-style: none;}
 /*font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Noto Serif KR', serif;*/
 
-#header{background-color: rgba(252, 236, 216, 0.4); height: 180px; position: absolute; z-index: 3;}
+#header{background-color: rgba(252, 236, 216, 0.4); height: 180px; position: absolute; top: 0px; left: 0%; width: 100%; z-index: 3;}
 .headerinner{width: 80%; margin: auto; position: relative; z-index: 2; }
 .logo{position: absolute; top: 30px; left: 50%; transform: translateX(-50%);}
 .headerinner .nav{width: 1320px;  height: 26px; position: absolute; top: 130px; right: 50%; transform: translateX(50%); }
