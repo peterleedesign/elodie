@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0;}
 body{color: #252525; font-size: 18px; line-height: 34px; font-family: 'Noto Sans KR', sans-serif;
-    font-family: 'Noto Serif KR', serif;}
+    font-family: 'Noto Serif KR', serif;min-width: 1320px; background: url(images/pattern.png);}
 a{text-decoration: none; color: #252525;}
 ul{list-style: none;}
 
@@ -26,8 +26,8 @@ font-family: 'Noto Serif KR', serif;*/
 
 
 /*content*/
-.error{width: 100%; height: 800px; background: url(images/pattern.png); position: relative;}
-.wrap{width: 1000px; height: 460px; margin: auto; text-align: center; padding-top:600px; background-color: rgba(255, 255, 255, 0.8); padding: 50px; box-sizing: border-box; position: absolute; top: 260px; right: 50%; transform: translateX(50%); border: #e97c84 solid 10px;}
+.error{width: 100%; height: 620px;  position: relative;}
+.wrap{width: 1000px; height: 460px; margin: auto; text-align: center; /*padding-top:600px;*/ background-color: rgba(255, 255, 255, 0.8); padding: 50px; box-sizing: border-box; position: absolute; top: 80px; right: 50%; transform: translateX(50%); border: #e97c84 solid 10px;}
 .notfound{margin-bottom: 70px; font-family: 'RIDIBatang'; line-height: 60px;}
 .notfound2{margin-bottom: 60px;}
 .tohome{font-size: 30px; color: #e97c84; font-weight: bold;}

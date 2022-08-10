@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0;}
 body{color: #252525; font-size: 18px; line-height: 34px; font-family: 'Noto Sans KR', sans-serif;
-    font-family: 'Noto Serif KR', serif;}
+    font-family: 'Noto Serif KR', serif; min-width: 1320px;}
 a{text-decoration: none; color: #252525;}
 ul{list-style: none;}
 
@@ -73,7 +73,7 @@ h1{font-size: 50px; top: 43%; position: absolute; line-height: 90px; left: 50%; 
 .boldpink{color: #dc6176; font-size: 55px; font-weight: bold;}
 .boldpink:hover{font-style: italic; transition: 1s;}
 .button2{width: 200px; height: 60px; position: absolute; bottom: 25%; right: 0%;}
-.btn2txt{font-size: 18px; font-family: 'NotoSansKR'; font-weight: 400; padding: 50px 0 0 0; background: url(images/buttonshape2.png) no-repeat right; height: 60px;}
+.btn2txt{font-size: 18px; font-family: 'NotoSansKR'; font-weight: 400; padding: 50px 0 0 0; background: url(images/buttonshape.png) no-repeat right; height: 60px;}
 .blooming{position: absolute; top: 21%; right: 30%; transition: 2s;}
 #content3:hover .blooming{transform: scale(1.2) rotate(15deg); overflow: hidden;}
 /*content3*/
